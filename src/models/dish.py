@@ -5,7 +5,6 @@ from models.ingredient import Ingredient
 
 Recipe = Dict[Ingredient, int]
 
-
 class Dish:
     def __init__(self, name: str, price: float) -> None:
         self.name = name
